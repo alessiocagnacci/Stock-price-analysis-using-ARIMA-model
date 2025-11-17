@@ -1,9 +1,11 @@
-# Analisi-titolo-azionario-con-modelli-ARIMA-in-R
-*Ho utilizzato i modelli ARIMA per fare previsioni sul valore di un titolo azionario prendendo le serie storiche da Yahoo Finance.*
+# Stock price analysis using ARIMA model
+*I used ARIMA models to forecast the value of a stock, using historical time series data retrieved from Yahoo Finance.*
 
-Durante la laurea magistrale in matematica ho seguito un corso di analisi delle serie storiche con R quindi ho deciso di applicare le conoscenze apprese nel campo di mio interesse.
-Ho quindi scelto di analizzare un titolo azionario, in questo caso AAPL (Apple) analizzando le sue serie storiche sia giornaliere ch mensili, il risultato sarà la creazione di un modello ARIMA che restituisce in intervallo di possibilità per il prezzo ad una certa data.
+During my Master’s degree in Mathematics, I took a time series analysis course with R, so I decided to apply the skills I learned to a field of personal interest.
+I selected a stock—in this case AAPL (Apple)—and analyzed its historical time series data, both daily and monthly.
 
-Ho utilizzato i pacchetti tseries e forecast per l'analisi delle serie storiche e quantmod per importare i dati.
+The goal was to build an ARIMA model capable of producing an interval of possible future prices at a given date.
 
-Modificando il ticker iniziale si può modificare il titolo in esame.
+I used the tseries and forecast packages for the time series analysis, and quantmod to import the data.
+
+By modifying the initial ticker, the model can be applied to any other stock.
